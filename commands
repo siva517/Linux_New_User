@@ -1,0 +1,4 @@
+useradd username 
+passwd username # enter new password
+do "vi /etc/ssh/sshd_config" and modify PasswordAuthentication to yes from no
+do ssh service restart "service sshd restart"
